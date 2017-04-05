@@ -1,0 +1,30 @@
+\documentclass[12pt, a4paper, titlepage]{article}
+% \usepackage{showframe}
+\input{preamble}
+
+% Static info
+\def\subjectid          {00000}                 % Course name
+\def\subject            {Course Name}           % Course number
+\setAuthor              {Student1}{s111111}     % Student names and numbers
+\setAuthor              {Student2}{s222222}
+\setAuthor              {Student3}{s333333}
+\def\projectdate        {\today}                % Due date
+\def\projecttitle       {Project Title}         % Project title
+\def\projectsubtitle    {Subtitle}              % Project subtitle
+
+\begin{document}
+
+% Front page
+\include{titlepage}
+
+% Table of contents
+\tableofcontents
+\thispagestyle{toc}
+
+% Sections
+\include{sections/section}
+
+% References
+\include{sections/references}
+
+\end{document}
