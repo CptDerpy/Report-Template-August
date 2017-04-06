@@ -4,6 +4,7 @@
 
     \usepackage[english]{babel}                 % English syntax
     \usepackage[titles]{tocloft}                % Nicer table of contents
+    \usepackage[export]{adjustbox}              % Framed images
     \usepackage[colorlinks = true, allcolors = s13, linkcolor = black]{hyperref}
                                                 % Hyperlinks in the document
     \usepackage{
@@ -32,6 +33,9 @@
 %%--------------------%%
 %%  PACKAGE SETTINGS  %%
 %%--------------------%%
+
+    % No indentation for entire document
+        \setlength\parindent{0pt}
 
     % Table of contents settings
         \renewcommand{\cftsecfont}{\sf}
