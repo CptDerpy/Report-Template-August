@@ -1,5 +1,6 @@
 \documentclass[12pt, a4paper, titlepage]{article}
 % \usepackage{showframe}
+\usepackage{silence}
 \input{preamble}
 
 % Static info
@@ -13,6 +14,7 @@
 \def\projectsubtitle    {Subtitle}              % Project subtitle
 
 \begin{document}
+\WarningFilter{microtype}{Unknown slot number of character}
 
 % Front page
 \include{titlepage}
